@@ -96,7 +96,6 @@ body {
 .son2 .Tabla {
     margin: 5%;
     max-width: 300px;
-    max-height: auto;
     border-radius: 15px;
 
 }
@@ -112,7 +111,6 @@ body {
 .son2 .cards3 {
     margin: 10px;
     max-width: 200px; 
-    max-height: auto;
     border-radius: 15px;
 }
 
