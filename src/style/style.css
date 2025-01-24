@@ -3,8 +3,9 @@ body {
     background-color: #15024f;
 }
 
+
 .background {
-    background-image: url('./space.jpg');
+    background-image: url('./space2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -124,7 +125,7 @@ body {
     flex-direction: column;
     align-items: center;
 
-    background-image: url('./space.jpg');
+    background-image: url('./space2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
