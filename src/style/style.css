@@ -1,0 +1,143 @@
+
+body {
+    background-color: #15024f;
+}
+
+.background {
+    background-image: url('./space.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.father {
+    margin: 10px auto;
+    width: 98%;
+    height: auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.son1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    /* grid-column: ;
+    grid-row: ; */
+}
+
+.son1 .logo {
+    max-width: 300px;
+    max-height: auto; 
+}
+
+.son1 .card1 {
+    background-color: rgba(0, 0, 0, 0.542);
+    margin: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.son1 .titulo {
+    margin: 5%;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: aliceblue;
+    
+}
+
+.son1 .parrafo {
+    margin: 2%;
+    color: aliceblue;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.son1 .button_play {
+    align-items: center;
+    margin: 5%;
+    width: 150px;
+    height: 35px;
+
+    border-style: none;
+    border-radius: 5px;
+    background-color: #E35498;
+    color: azure;
+
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+
+.son1 .button_play:hover{
+    background-color: #dc1cbc;
+}
+
+.son2 {
+    background-color: rgba(0, 0, 0, 0.542);
+    margin: 5%;
+    width: 700px;
+    margin-bottom: 2%;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.son2 .Tabla {
+    margin: 5%;
+    max-width: 300px;
+    max-height: auto;
+    border-radius: 15px;
+
+}
+
+.son2 .cardcitas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.son2 .cards1,
+.son2 .cards2,
+.son2 .cards3 {
+    margin: 10px;
+    max-width: 200px; 
+    max-height: auto;
+    border-radius: 15px;
+}
+
+.footer{
+    background-color: rgb(13, 13, 97);
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url('./space.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+
+}
+
+.footer .text {
+    margin-top: 40px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    font-size: 15px;
+    color: azure;
+}
